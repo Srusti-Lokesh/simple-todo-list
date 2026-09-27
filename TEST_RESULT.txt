@@ -1,0 +1,16 @@
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 772, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py", line 37, in get_or_create_client
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py", line 124, in start_daemon
+TimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.
+test_create_read_update_delete (test_todo_core.TodoCoreTests.test_create_read_update_delete) ... ok
+test_invalid_task_title (test_todo_core.TodoCoreTests.test_invalid_task_title) ... ok
+test_missing_task (test_todo_core.TodoCoreTests.test_missing_task) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

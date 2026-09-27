@@ -1,0 +1,50 @@
+SAMPLE EXECUTION — Simple To-Do List
+
+The following is representative output. Your screenshot should be captured from YOUR actual run.
+
+===========================
+      SIMPLE TO-DO LIST
+===========================
+1. Add task
+2. View tasks
+3. Update task
+4. Remove task
+5. Exit
+
+Choose an option (1-5): 1
+Enter task title: Complete internship project
+Task added: #1 - Complete internship project
+
+Choose an option (1-5): 1
+Enter task title: Push project to GitHub
+Task added: #2 - Push project to GitHub
+
+Choose an option (1-5): 2
+
+--- To-Do List ---
+1. Complete internship project [Pending]
+2. Push project to GitHub [Pending]
+
+Choose an option (1-5): 3
+
+--- To-Do List ---
+1. Complete internship project [Pending]
+2. Push project to GitHub [Pending]
+Enter task ID: 1
+New title [Complete internship project]: Finish internship project
+Mark as completed? (y = done, n = pending, Enter = keep current): y
+Updated task #1.
+
+Choose an option (1-5): 4
+
+--- To-Do List ---
+1. Finish internship project [Done]
+2. Push project to GitHub [Pending]
+Enter task ID: 2
+Removed task #2: Push project to GitHub
+
+Choose an option (1-5): 9
+Invalid choice. Please select 1, 2, 3, 4, or 5.
+
+Choose an option (1-5): 5
+Goodbye!
